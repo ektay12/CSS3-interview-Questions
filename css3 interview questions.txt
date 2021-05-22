@@ -1,0 +1,277 @@
+Q1. What is the full form of CSS? 
+CSS stands for Cascading Style Sheets. It is a technology developed by the World Wide Web Consortium or W3C. It was developed to streamline the styling of webpages into a separate technology.
+----------------------------------------------------------------------------
+Q2. What are the major versions of CSS?
+The following are the major versions of CSS
+
+CSS 1
+CSS 2
+CSS 2.1
+CSS 3
+CSS 4
+----------------------------------------------------------------------------
+Q3. What are the different ways you could integrate CSS into your HTML page?
+There are three ways that you could integrate a certain CSS style:
+
+You can integrate your style using the style-tags in the head section of your HTML page.
+You can integrate your style using inline-styling.
+You can write your CSS in a separate file and add it to your HTML page using the link tag.
+------------------------------------------------------------------------
+Q4. What are the advantages of using CSS?
+Following are the advantages of using CSS:
+
+The style of several documents can be controlled from a single site by using them.
+Multiple HTML elements can have many documents, where classes can be created.
+To group styles in complex situations, selector and grouping methods are used.
+---------------------------------------------------------------------------
+Q5. What are the disadvantages of using CSS?
+Following are the disadvantages of using CSS:
+
+Ascending by selectors is not possible
+Limitations of vertical control
+No expressions
+No column declaration
+Pseudo-class not controlled by dynamic behaviour
+Rules, styles, targeting specific text not possible
+---------------------------------------------------------------------------
+Q6. Name a few prominent CSS frameworks.
+Below are the prominent CSS frameworks in the web development industry today:
+
+Bootstrap
+bootstrap logo - css interview question - edureka
+Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites. Bootstrap 4 is the newest version of Bootstrap
+
+Foundation
+
+Foundation is a responsive front-end framework. Foundation provides a responsive grid and HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface elements, as well as optional functionality provided by JavaScript extensions.
+
+Semantic UI
+Semantic UI is a modern front-end development framework, powered by LESS(CSS-semantic ui logo - css interview questions - edurekapreprocessor) and jQuery. It has a sleek, subtle, and flat design look that provides a lightweight user experience.
+Ulkit
+UIkit is a lightweight and modular front-end framework for developing fast and UIkit logo - css interview questions - edurekapowerful web interfaces.
+----------------------------------------------------------------------------
+Q7. What is the difference between the usage of an ID and a Class?
+
+ID – An ID is unique. A particular ID can be only assigned to a single element. IDs are used when specific styling is being tried to be achieved over a single element. Below is a pictorial example of how to use an ID.
+
+Class – Just like the word suggests, a class is a collective way of targetting HTML elements for styling. Classes are not unique and multiple elements can have the same class. In fact, multiple classes can also be added to the same element to achieve the desired style and look. Below is an example of the usage of classes.
+----------------------------------------------------------------------------
+Q8. Q17. How will you target an h2 and h3 with the same styling?
+
+You can target multiple elements by separating the separators with a comma (,)
+
+h2, h3 {
+
+color: blue;
+
+}
+---------------------------------------------------------------------------
+Q9. What are the different media types allowed by CSS?
+There are four types of @media properties (including screen):
+
+all – for all media type devices
+print – for printers
+speech – for screenreaders that “reads” the page out loud
+screen – for computer screens, tablets, smart-phones etc.
+Here is an example of print-media type’s usage:
+
+@media print {
+
+h1 {
+
+background-color: yellow;
+
+ }
+
+}
+
+----------------------------------------------------------------------------
+Q10. Q23. How do you control image repetition using CSS?
+
+You can use the background-repeat property to control image.
+h1 {
+
+background-repeat: none;
+
+ }
+----------------------------------------------------------------------------
+Q11. What is the overflow property in CSS used for?
+
+The overflow property specifies what should happen if content overflows an element’s box. This property specifies whether to clip content or to add scrollbars when an element’s content is too big to fit in a specified area. Below are the overflow options available in CSS – 
+
+overflow: auto;
+
+overflow: none;
+
+overflow: scroll;
+
+overflow: visible;
+----------------------------------------------------------------------------
+Q12. What is the property that is used for controlling image-scroll?
+
+The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed. Here is an example of a background-image that will not scroll with the page (fixed):
+
+body {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+----------------------------------------------------------------------------
+Q13. What is responsive web design?
+
+Responsive design is an approach to web page creation that makes use of flexible layouts, flexible images and cascading style sheet media queries. The goal of responsive design is to build web pages that detect the visitor’s screen size and orientation and change the layout accordingly.
+----------------------------------------------------------------------------
+Q14. What is CSS flexbox?
+
+The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3. It is made to improve the items align, directions and order in the container even when they are with dynamic, or even unknown size. The prime characteristic of the flex container is the ability to modify the width or height of its children to fill the available space in the best possible way on different screen sizes.
+---------------------------------------------------------------------------
+Q15. What are the different ways to position a certain element in CSS?
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+position: fixed;
+
+position: static;
+
+position: absolute;
+
+position: sticky;
+
+position: relative;
+----------------------------------------------------------------------------
+
+Q16. What’s the difference between a relative, fixed, absolute and statically positioned element?
+
+A positioned element is an element whose computed position property is either relative, absolute, fixed or sticky.
+
+Static
+The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
+
+Relative
+The element’s position is adjusted relative to itself, without changing the layout (and thus leaving a gap for the element where it would have been had it not been positioned).
+
+Absolute
+The element is removed from the flow of the page and positioned at a specified position relative to its closest positioned ancestor if any, or otherwise relative to the initial containing block. Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.
+
+Fixed
+The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn’t move when scrolled.
+
+Sticky
+Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
+---------------------------------------------------------------------------
+Q17. What is Pseudo-elements ?
+
+Pseudo-elements are used to add special effects to some selectors.  CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or styling is not possible for the document, then there is a feature available in CSS known as pseudo-elements. It will allow extra mark-up to the document without disturbing the actual document.
+---------------------------------------------------------------------------
+18. What is meant by a universal selector?
+Answer: It is a selector which can match the name of any element type, rather than selecting the elements of a specific category.
+---------------------------------------------------------------------------
+Q19. Distinguish between CSS2 and CSS3.
+
+Answer: The differences between CSS2 and CSS3 are as follows:
+
+CSS3 is divided into two various sections which are called a module. Whereas in CSS2 everything accedes into a single document with all the information in it.
+CSS3 modules are supported almost on every browser and on the other hand modules of CSS and CSS2 are not supported in every browser.
+In CSS3, we will find that many graphics related characteristics have been introduced like Border-radius or box-shadow, flexbox.
+In CSS3, a user can precise multiple background images on a webpage by using properties like background-image, background-position, and background-repeat styles.
+----------------------------------------------------------------------------
+Q20. Write all the properties of the flexbox.
+
+Answer: There are several properties of the flexbox that are used in the HTML webpage.
+
+They are:
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+----------------------------------------------------------------------------
+Q21.What is CSS opacity?
+
+Answer: It is the property that elaborates on the transparency of an element.
+
+By this property, we can transparent the image that can take the values from 0.0-1.0. If the value is lower, then the image is more transparent. IE8 and earlier versions of the browser can take the values from 0-100.
+
+img {
+opacity: 0.6;
+}
+----------------------------------------------------------------------------
+Q22. Where we use the @import?
+Answer: We use @import at the top to avoid the overriding of code.
+---------------------------------------------------------------------------
+Q23. How are attributes used to style HTML elements in CSS?
+
+There are a few attributes that apply to all tags, like class and id, but a lot of tags have their own ones. For example, input tags can have a type (text, number, radio, etc) and a tags can have href.
+
+You can target elements with particular attributes by using square brackets: [attribute="value"]. 
+
+For example, you can target all input fields that are of type radio like so:
+
+input[type="radio"] {
+
+     background-color: #eee;
+
+}
+---------------------------------------------------------------------------
+Q24. What is the grouping selector in CSS?
+The grouping selector in CSS selects all the HTML elements with the same style definitions. This will be better to group the selectors, to minimize the code.
+
+The comma is a grouping method, it selects all the matching nodes.
+
+Example: div, span will match both <span> and <div> elements.
+---------------------------------------------------------------------------
+Q25. How to use before and after in CSS3?
+The ::before the selector is used to inserting something before the content of any selected element. Whereas, the ::after selector to insert something after the content in a specified element.
+
+Syntax for before selector:
+::before {
+   css declarations;
+}
+
+Syntax for After Selector:
+::after {
+   css declarations;
+}
+----------------------------------------------------------------------------
+Q26. What is media query in CSS3?
+The media query is a technique used to produce a tailored style sheet, better known as responsive web design, to desktops, tablets, laptops, and other mobile devices. We can also use media queries to specify certain styles required for printed documents or for screen readers.
+----------------------------------------------------------------------------
+Q27. What is attr()?
+In CSS3, the attr() function is used to retrieve the value of an attribute of the element selected and use it in the style sheet. This function also can be used on pseudo-elements, in which case pseudo-element's originating element attribute value will be returned.
+----------------------------------------------------------------------------
+Q28. How does the Z Index work in CSS3?
+In CSS, the z-index property specifies the stack order of elements. An element having a greater stack order is placed in front of an element with a lower stack order.
+
+Here’s its CSS Syntax:
+z-index: auto|number|initial|inherit;
+
+Here’s an example to set the z-index of an image:
+
+img {
+   position: fixed;
+   left: 3px;
+   top: 10px;
+   z-index: -2;
+}
+----------------------------------------------------------------------------
+Q29. Explain CSS3 Animations?
+CSS3 animations allow HTML element animation without using Flash or JavaScript. It lest elements gradually change form one style to another. The users must have to specify some keyframes for the animation to apply CSS3 animation.
+----------------------------------------------------------------------------
+Q30. How to use pseudo-elements in CSS3?
+In CSS, pseudo-element is used to style detailed and specific parts of an element.
+
+For example, it may be used to:
+Style an element, letter or line.
+Insert content in an element before or after the content within the element.
+It is a keyword added to a selector that lets you in styling a specific part of the selected element(s).
+
+For example, ::first-line is used to change the font of the first line of a paragraph below.
+
+p::first-line {
+   color: blue;
+   text-transform: uppercase;
+}
+----------------------------------------------------------------------------
